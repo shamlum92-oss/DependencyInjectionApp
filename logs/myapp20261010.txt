@@ -1,0 +1,28 @@
+2026-10-10 17:00:00.431 +03:00 [INF] Now listening on: http://localhost:5287
+2026-10-10 17:00:01.022 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-10 17:00:01.101 +03:00 [INF] Hosting environment: Development
+2026-10-10 17:00:02.319 +03:00 [INF] Content root path: C:\Users\SHAM KING\Desktop\API project\DependencyInjection
+2026-10-10 17:01:21.107 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/trigger-error - null null
+2026-10-10 17:01:24.414 +03:00 [INF] Executing endpoint 'HTTP: GET /trigger-error'
+2026-10-10 17:01:25.008 +03:00 [INF] Executed endpoint 'HTTP: GET /trigger-error'
+2026-10-10 17:01:25.051 +03:00 [ERR] Global exception caught
+System.InvalidOperationException: Simulated error for testing!
+   at Program.<>c.<<Main>$>b__0_1() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 34
+   at lambda_method1(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 20
+2026-10-10 17:01:25.812 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/trigger-error - 500 null null 4780.0141ms
+2026-10-10 17:02:12.043 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/trigger-error - null null
+2026-10-10 17:02:12.589 +03:00 [INF] Executing endpoint 'HTTP: GET /trigger-error'
+2026-10-10 17:02:12.739 +03:00 [INF] Executed endpoint 'HTTP: GET /trigger-error'
+2026-10-10 17:02:13.044 +03:00 [ERR] Global exception caught
+System.InvalidOperationException: Simulated error for testing!
+   at Program.<>c.<<Main>$>b__0_1() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 34
+   at lambda_method1(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 20
+2026-10-10 17:02:13.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/trigger-error - 500 null null 1724.2199ms
+2026-10-10 17:02:26.957 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-10 17:02:27.282 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-10 17:02:27.412 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-10 17:02:27.424 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 466.3391ms

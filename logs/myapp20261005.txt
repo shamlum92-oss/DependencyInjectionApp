@@ -1,0 +1,19 @@
+2026-10-05 14:50:32.868 +03:00 [INF] Now listening on: http://localhost:5287
+2026-10-05 14:50:33.127 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-05 14:50:33.138 +03:00 [INF] Hosting environment: Development
+2026-10-05 14:50:33.174 +03:00 [INF] Content root path: C:\Users\SHAM KING\Desktop\API project\DependencyInjection
+2026-10-05 14:50:47.813 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-05 14:50:48.087 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-05 14:50:48.127 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-05 14:50:48.155 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 344.7019ms
+2026-10-05 14:51:26.394 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/trigger-error - null null
+2026-10-05 14:51:26.503 +03:00 [INF] Executing endpoint 'HTTP: GET /trigger-error'
+2026-10-05 14:51:26.576 +03:00 [INF] Executed endpoint 'HTTP: GET /trigger-error'
+2026-10-05 14:51:26.603 +03:00 [ERR] Global exception caught
+System.InvalidOperationException: Simulated error for testing!
+   at Program.<>c.<<Main>$>b__0_1() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 34
+   at lambda_method1(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 20
+2026-10-05 14:51:27.111 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/trigger-error - 500 null null 719.8313ms
+2026-10-05 18:32:30.528 +03:00 [WRN] As of ""2026-10-05T15:32:26.5453844+00:00"", the heartbeat has been running for ""00:00:01.4484713"" which is longer than ""00:00:01"". This could be caused by thread pool starvation.

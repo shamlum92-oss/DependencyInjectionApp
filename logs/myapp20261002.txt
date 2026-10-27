@@ -1,0 +1,53 @@
+2026-10-02 14:26:05.368 +03:00 [INF] Now listening on: http://localhost:5287
+2026-10-02 14:26:05.842 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-02 14:26:05.850 +03:00 [INF] Hosting environment: Development
+2026-10-02 14:26:05.900 +03:00 [INF] Content root path: C:\Users\SHAM KING\Desktop\API project\DependencyInjection
+2026-10-02 14:27:21.728 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-02 14:27:21.977 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-02 14:27:21.994 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-02 14:27:22.013 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 318.6996ms
+2026-10-02 14:30:34.715 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-02 14:30:34.743 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-02 14:30:34.751 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-02 14:30:34.759 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 44.6942ms
+2026-10-02 14:30:35.008 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-02 14:30:35.056 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-02 14:30:35.090 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-02 14:30:35.108 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 100.396ms
+2026-10-02 14:35:11.723 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-02 14:35:11.752 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-02 14:35:11.759 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-02 14:35:11.788 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 65.3246ms
+2026-10-02 14:37:01.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-02 14:37:01.917 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-02 14:37:01.947 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-02 14:37:01.962 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 157.5548ms
+2026-10-02 14:37:36.588 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-02 14:37:37.528 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-02 14:37:37.578 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-02 14:37:37.643 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 1054.4453ms
+2026-10-02 14:38:28.730 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/trigger-error - null null
+2026-10-02 14:38:28.752 +03:00 [INF] Executing endpoint 'HTTP: GET /trigger-error'
+2026-10-02 14:38:28.813 +03:00 [INF] Executed endpoint 'HTTP: GET /trigger-error'
+2026-10-02 14:38:29.149 +03:00 [ERR] Global exception caught
+System.InvalidOperationException: Simulated error for testing!
+   at Program.<>c.<<Main>$>b__0_1() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 34
+   at lambda_method1(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 20
+2026-10-02 14:38:29.314 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/trigger-error - 500 null null 583.7537ms
+2026-10-02 14:39:28.458 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/ - null null
+2026-10-02 14:39:28.490 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2026-10-02 14:39:28.506 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2026-10-02 14:39:28.533 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/ - 200 null text/plain; charset=utf-8 67.2569ms
+2026-10-02 14:39:34.215 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5287/trigger-error - null null
+2026-10-02 14:39:34.244 +03:00 [INF] Executing endpoint 'HTTP: GET /trigger-error'
+2026-10-02 14:39:34.257 +03:00 [INF] Executed endpoint 'HTTP: GET /trigger-error'
+2026-10-02 14:39:34.274 +03:00 [ERR] Global exception caught
+System.InvalidOperationException: Simulated error for testing!
+   at Program.<>c.<<Main>$>b__0_1() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 34
+   at lambda_method1(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_0>d.MoveNext() in C:\Users\SHAM KING\Desktop\API project\DependencyInjection\Program.cs:line 20
+2026-10-02 14:39:34.332 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5287/trigger-error - 500 null null 117.1881ms
+2026-10-02 15:53:00.192 +03:00 [INF] Application is shutting down...
